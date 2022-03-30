@@ -114,6 +114,14 @@ nav ul li a:hover {
   line-height: 50px;
   margin-left: 15px;
   margin-top: 20px;
+  transition: all 0.3s;
+}
+.social a:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 9px 0 white;
+}
+.social a:hover i {
+  color: white;
 }
 .social a i {
   transition: 0.3s;
@@ -138,6 +146,7 @@ nav ul li a:hover {
   color: white;
   position: relative;
   padding-bottom: 5px;
+  transition: all 0.3s;
 }
 
 .title::after {
@@ -158,13 +167,14 @@ nav ul li a:hover {
 .title span {
   color: #00fff5;
 }
-.about_intro h3 {
+
+.about_intro h4 {
   margin-bottom: 20px;
   font-size: 25px;
   color: white;
   /* text-align: center; */
 }
-.about_intro h3 span {
+.about_intro h2 {
   color: #00fff5;
   font-weight: bold;
 }
@@ -217,6 +227,14 @@ nav ul li a:hover {
   height: 58px;
   color: white;
 }
+.send {
+  border: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  box-shadow: 0 0 25px rgb(0 0 0);
+  padding: 30px;
+  color: white;
+}
 .submit a {
   border: 1px solid #00fff5;
   background-color: #212121;
@@ -225,10 +243,11 @@ nav ul li a:hover {
   padding: 10px;
   text-decoration: none;
   color: #00fff5;
+  display: block;
 }
 .submit {
   text-align: center;
-  margin: 35px;
+  margin: 33px 0px 0px 0px;
   font-weight: bold;
 }
 .submit a:hover {
@@ -237,23 +256,22 @@ nav ul li a:hover {
   border: 1px solid #00fff5;
   background-color: white;
 }
+
 .info_box {
   border: 0;
   border-radius: 15px;
   background-color: #212121;
   box-shadow: 0 0 25px rgb(0 0 0);
-  height: 400px;
   padding: 30px;
   color: white;
 }
 .info_box .info {
-  border: 1px solid #00fff5;
   border-radius: 15px;
   padding: 15px;
   display: flex;
-  background-color: #212121;
-
+  background-color: rgb(33, 33, 33);
   margin-bottom: 20px;
+  box-shadow: rgb(0 0 0) 0px 0px 25px;
 }
 .info_box .info i {
   line-height: 1.5;
