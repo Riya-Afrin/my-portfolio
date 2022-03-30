@@ -5,41 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <script src="https://kit.fontawesome.com/043fd94ee2.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+      integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/responsive.css" />
   </head>
   <body>
-    <div class="home">
-    <div class="nav">
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="nav">
         <nav>
           <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
-    <div class="container">
-
-
-      <div class="banner">
-        <div class="img">
-          <img src="../image/pic.png" alt="My Picture" />
-        </div>
-        <div class="intro">
-          <h1>Hi! I am <span>Riya Afrin</span></h1>
-          <p>
-            I work as a Project Manager, but I am also <br />
-            interested in Web Development.
-          </p>
+      <div class="container">
+        <div class="banner">
+          <div class="img">
+            <img src="../image/pic.png" alt="My Picture" />
+          </div>
+          <div class="intro">
+            <h1>Hi! I am <span>Riya Afrin</span></h1>
+            <p>
+              I work as a Project Manager, but I am also <br />
+              interested in Web Development.
+            </p>
+          </div>
         </div>
       </div>
+      <div class="social">
+        <a href="https://www.facebook.com/riyaafrin.ronesa" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/riya-afrin-21678643/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/riyaafrin.ronesa/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
       </div>
-    </div>
-  </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about_me" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="title">
+            <h1>About <span>Me</span></h1>
+          </div>
+          <div class="col-md-6">
+            <div class="img">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about_intro">
+              <h3>I am <span>Riya Afrin</span>,a Project Manager</h3>
+              <p>
+                I got a bachelor's degree in computer science and engineering
+                from Independent University in Bangladesh. I am a Project
+                Manager at NEXTGEN INNOVATION LTD. But I am interested in web
+                development and am currently learning it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience"></section>
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="porfolio"></section>
+    <!-- CONTACT -->
+    <section class="contact_me" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="title">
+            <h1>Contact <span> Me</span></h1>
+          </div>
+          <div class="con_box">
+            <div class="col-md-6">
+              <h4>Contact</h4>
+              <form id="mail">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Name</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="5"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </div>
+                <div class="submit">
+                  <a href="">Send Message</a>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <h4>Get in touch</h4>
+              <div class="info_box">
+                <div class="info">
+                  <span class="icon">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  <div class="info_detail">
+                    <h6>Name</h6>
+                    <span>Riya Afrin</span>
+                  </div>
+                </div>
+                <div class="info">
+                  <span class="icon">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </span>
+                  <div class="info_detail">
+                    <h6>Email</h6>
+                    <span>riyaafronesa@gmail.com</span>
+                  </div>
+                </div>
+                <div class="info">
+                  <span class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </span>
+                  <div class="info_detail">
+                    <h6>Address</h6>
+                    <span>Dhaka, Bangladesh</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="social">
+            <a href="https://www.facebook.com/riyaafrin.ronesa" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/riya-afrin-21678643/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/riyaafrin.ronesa/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
