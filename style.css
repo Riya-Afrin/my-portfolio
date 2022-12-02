@@ -35,7 +35,7 @@ nav ul li::after {
   content: "";
   position: absolute;
   width: 30px;
-  height: 1px;
+  height: 2px;
   background-color: white;
   bottom: 0;
   left: 0;
@@ -139,6 +139,11 @@ nav ul li a:hover {
 .about .about_intro {
   width: 450px;
 }
+.about_intro{
+  display: flex;
+  
+}
+
 .title {
   font-size: 60px;
   margin-bottom: 45px;
