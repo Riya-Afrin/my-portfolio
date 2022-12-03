@@ -10,6 +10,7 @@ body {
 img {
   width: 100%;
 }
+
 /* --------Home Styling-------- */
 .container {
   width: 80%;
@@ -99,8 +100,8 @@ nav ul li a:hover {
 }
 .social {
   display: flex;
-  justify-content: right;
-  margin-right: 80px;
+  justify-content: center;
+  /* margin-right: 2px; */
 }
 .social a {
   display: inline-block;
@@ -112,8 +113,8 @@ nav ul li a:hover {
   text-align: center;
   box-shadow: 0 0 9px 0 #00fff5;
   line-height: 50px;
-  margin-left: 15px;
-  margin-top: 20px;
+  margin-left: 25px;
+  margin-top: 80px;
   transition: all 0.3s;
 }
 .social a:hover {
@@ -131,7 +132,8 @@ nav ul li a:hover {
 }
 /* --------About Styling---------- */
 .about_me {
-  margin-top: 70px;
+  margin: 30vh;
+  /* margin-top: 70px; */
 }
 .about {
   padding: 40px;
@@ -184,8 +186,9 @@ nav ul li a:hover {
   font-weight: bold;
 }
 .about_intro p {
+display: flex;
+justify-content: center;
   font-size: 17px;
-  text-align: justify;
   color: white;
 }
 /*------------- Contact----------- */
